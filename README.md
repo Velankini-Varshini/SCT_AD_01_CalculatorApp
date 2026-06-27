@@ -1,54 +1,112 @@
-# 📱 Calculator App (React Native + Expo)
+# 📱 Calculator App
 
-A simple and modern calculator app built using React Native with Expo Router. It supports basic math operations, history tracking, and theme switching.
+A modern Calculator App built using **React Native** and **Expo** in **Visual Studio Code**. The application provides basic arithmetic operations with a clean and responsive user interface inspired by modern mobile calculators.
 
-🚀 Features
-Basic arithmetic operations (+, −, ×, ÷)
-Percentage calculation
-Real-time expression evaluation
-Calculation history panel 🕘
-Dark / Light theme toggle 🌙☀️
-Clean and responsive UI
-Component-based structure
+## ✨ Features
 
-📂 Project Structure
-app/
-  index.tsx
-  _layout.tsx
+- ➕ Addition
+- ➖ Subtraction
+- ✖️ Multiplication
+- ➗ Division
+- 🔢 Decimal calculations
+- 🧹 All Clear (AC)
+- ⌫ Backspace/Delete
+- 📜 Calculation History
+- 📂 Show/Hide History Panel
+- 📱 Responsive UI
+- 🌙 Dark Theme
+- ⚡ Fast and smooth performance
 
-components/
-  CalculatorButton.tsx
-  HistoryPanel.tsx  
-  ThemeToggle.tsx
+## 🛠️ Technologies Used
 
-utils/
-  calculator.ts
-  formatter.ts
-  
-🛠️ Installation & Setup
-1. Clone the repository
-git clone https://github.com/Velankini-Varshini/Calculator-App.git
-2. Move into project folder
-cd Calculator-App
-3. Install dependencies
+- React Native
+- Expo
+- Expo Router
+- TypeScript
+- Visual Studio Code
+
+## 📂 Project Structure
+
+```
+CalculatorApp/
+│
+├── app/
+│   ├── _layout.tsx
+│   └── index.tsx
+│
+├── assets/
+│
+├── components/
+│
+├── utils/
+│
+├── app.json
+├── package.json
+├── tsconfig.json
+└── README.md
+```
+
+## 🚀 Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/CalculatorApp.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd CalculatorApp
+```
+
+### 3. Install dependencies
+
+```bash
 npm install
-4. Start the app
+```
+
+### 4. Start the Expo development server
+
+```bash
 npx expo start
+```
 
-Then scan the QR code using Expo Go app.
+### 5. Run the application
 
-📱 Tech Stack
-React Native,
-Expo Router,
-TypeScript,
-React Hooks
+- Scan the QR code using the **Expo Go** app on your Android device.
+- Ensure your phone and computer are connected to the same Wi-Fi network.
 
-⚠️ Notes
-Make sure you have Node.js installed
-Use Expo Go for testing on mobile
-Run npx expo start -c if cache issues occur
+## 📸 Screenshots
 
-👨‍💻 Author
-Built by Velankini Varshini
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Add screenshots of your application here.
+
+Example:
+
+```
+screenshots/
+│
+├── home.png
+├── history.png
+└── dark-theme.png
+```
+
+## 📌 Future Enhancements
+
+- Persistent history using AsyncStorage
+- Theme switch (Light/Dark)
+- Haptic feedback
+- Button animations
+- Scientific calculator functions
+- Improved expression parser
+- Memory functions (M+, M-, MR)
+
+## 👨‍💻 Author
+
+**Velankini Varshini**
+
+GitHub: https://github.com/Velankini-Varshini
+
+## 📄 License
+
+This project is developed for educational purposes and is open for learning and modification.
